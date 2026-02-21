@@ -1,0 +1,17 @@
+/* Video embed styling: center, max width and spacing */
+.video-embed-wrapper {
+  max-width: 980px;
+  margin: 18px auto 36px;
+  padding: 8px;
+}
+.video-embed-wrapper iframe {
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Ensure section has breathing room on top */
+.video-section {
+  padding-top: 36px;
+  padding-bottom: 48px;
+}
